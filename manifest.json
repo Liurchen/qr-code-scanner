@@ -1,6 +1,6 @@
 {
   "name": "qrcode scanner",
-  "version": "1.0",
+  "version": "0.0.1",
   "description": "Scan qrcode on your current page and open it easily!",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "options_page": "options.html",

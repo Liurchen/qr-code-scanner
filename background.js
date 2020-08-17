@@ -34,7 +34,6 @@ chrome.browserAction.onClicked.addListener(function () {
 });
 
 function qrcodeCallback(data) {
-	console.log(data);
 	if (validURL(data)) {
 		// open it in new tab
 		chrome.tabs.create({ url: data }, function (tab) {
