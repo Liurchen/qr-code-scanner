@@ -1,0 +1,45 @@
+{
+  "name": "qrcode scanner",
+  "version": "1.0",
+  "description": "Scan qrcode on your current page and open it easily!",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": [
+      "lib/qrcode/grid.js",
+      "lib/qrcode/version.js",
+      "lib/qrcode/detector.js",
+      "lib/qrcode/formatinf.js",
+      "lib/qrcode/errorlevel.js",
+      "lib/qrcode/bitmat.js",
+      "lib/qrcode/datablock.js",
+      "lib/qrcode/bmparser.js",
+      "lib/qrcode/datamask.js",
+      "lib/qrcode/rsdecoder.js",
+      "lib/qrcode/gf256poly.js",
+      "lib/qrcode/gf256.js",
+      "lib/qrcode/decoder.js",
+      "lib/qrcode/qrcode.js",
+      "lib/qrcode/findpat.js",
+      "lib/qrcode/alignpat.js",
+      "lib/qrcode/databr.js",
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/scan_qr_16.png",
+      "32": "images/scan_qr_32.png",
+      "48": "images/scan_qr_48.png",
+      "128": "images/scan_qr_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/scan_qr_16.png",
+    "32": "images/scan_qr_32.png",
+    "48": "images/scan_qr_48.png",
+    "128": "images/scan_qr_128.png"
+  },
+  "manifest_version": 2
+}
